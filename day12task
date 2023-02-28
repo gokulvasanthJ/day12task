@@ -7,7 +7,7 @@
 </head>
 <body>
    <div class="container">
-    <nav class="nav-container"></nav>
+    <nav class="nav-container"><h1 class="nav-head">GitHub</h1></nav>
     <div class="content-container">
     <div class="sidebar"></div>
     <div class="contant-area">
@@ -33,6 +33,11 @@
         width: 100%;
         height: 50px;
         background-color:black;
+    }
+    .nav-head{
+        color:#ffffff;
+        display:flex;
+       justify-content:center;
     }
     .content-container{
         box-sizing: border-box;
